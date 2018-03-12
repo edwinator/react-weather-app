@@ -5,6 +5,7 @@ import GoogleMap from '../components/GoogleMap';
 
 class WeatherList extends Component {
   renderWeather(cityData) {
+    // console.log('this.props', this.props)
     const {name} = cityData.city;
     const temps = cityData.list.map(weather => weather.main.temp);
     const pressures = cityData.list.map(weather => weather.main.pressure);
