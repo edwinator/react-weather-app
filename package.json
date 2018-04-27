@@ -49,5 +49,5 @@
     "redux-promise-middleware": "^5.0.0",
     "redux-thunk": "^2.2.0"
   },
-  "homepage": "https://edwinator.github.io/react-weather-app"
+  "homepage": "https://edwinator.github.com/react-weather-app"
 }
