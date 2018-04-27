@@ -1,12 +1,14 @@
 {
   "name": "redux-simple-starter",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description":
+    "Simple starter package for Redux with React and Babel support",
   "main": "index.js",
   "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+    "test":
+      "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
   "author": "",
@@ -33,6 +35,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "babel-preset-stage-1": "^6.1.18",
+    "hoek": "^5.0.3",
     "lodash": "^3.10.1",
     "query": "^0.2.0",
     "react": "^0.14.3",
@@ -45,5 +48,6 @@
     "redux-promise": "^0.5.3",
     "redux-promise-middleware": "^5.0.0",
     "redux-thunk": "^2.2.0"
-  }
+  },
+  "homepage": "https://edwinator.github.io/react-weather-app"
 }
